@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    background: blue;
+    top: calc(50vh / 2);
+    left: calc(50vw / 2);
+}
+
+
+.block {
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: yellow;
+}
+
+.selected-element {
+    border: 5px solid red;
+}
